@@ -1,0 +1,25 @@
+package Multithreading.Synchronization.InventoryCounterSynchronized;
+
+import Multithreading.Synchronization.InventoryCounterSynchronized.Adder;
+import Multithreading.Synchronization.InventoryCounterSynchronized.InventoryCounter;
+import Multithreading.Synchronization.InventoryCounterSynchronized.Subtractor;
+
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+public class Main {
+    public static void main(String [] args) throws InterruptedException {
+        InventoryCounter counter = new InventoryCounter();
+        Lock lock = new ReentrantLock();
+        System.out.println(counter.count);
+        Thread t1 = new Thread(new Adder(counter));
+        Thread t2 = new Thread(new Subtractor(counter));
+
+        t1.start();
+        t2.start();
+        t1.join();
+        t2.join();
+        System.out.println(counter.count);
+    }
+
+}
