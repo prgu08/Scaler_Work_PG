@@ -1,9 +1,4 @@
 package Multithreading.Synchronization.InventoryCounterSynchronized;
-
-import Multithreading.Synchronization.InventoryCounterSynchronized.Adder;
-import Multithreading.Synchronization.InventoryCounterSynchronized.InventoryCounter;
-import Multithreading.Synchronization.InventoryCounterSynchronized.Subtractor;
-
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 

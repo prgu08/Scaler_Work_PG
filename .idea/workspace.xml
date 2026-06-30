@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac808552-e028-4651-814d-c2281d088161" name="Changes" comment="synchronization">
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/ProducerConsumerSynchronized/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/ProducerConsumerSynchronized/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/ProducerConsumerSynchronized/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Multithreading/Synchronization/InventoryCounterSynchronized/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/Synchronization/InventoryCounterSynchronized/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotBackgroundAgentModePicker">
+    <option name="selectedModeId" value="Ask" />
   </component>
   <component name="CopilotPersistence">
     <persistenceIdMap>
@@ -79,11 +86,24 @@
       <option name="project" value="LOCAL" />
       <updated>1782575928016</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="synchronization">
+      <option name="closed" value="true" />
+      <created>1782752868122</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1782752868122</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="synchronization" />
     <option name="LAST_COMMIT_MESSAGE" value="synchronization" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Scaler_Work_PG$Main.ic" NAME="Main Coverage Results" MODIFIED="1782754830861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Multithreading.ProducerConsumerSynchronized.*</FILTER>
+    </SUITE>
   </component>
 </project>
